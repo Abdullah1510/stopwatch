@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(57, 179, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+#container{
+    color: brown;
+}
+.digit{
+    font-size: 90px;
+    font-weight: bold;
+
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+  padding: 10px 25px;  
+  font-size: 15px;
+  margin: 0px 10px;
+  border: 0px;
+  cursor: pointer;
+  color: white;
+}
+#start{
+background-color: green;
+}
+#stop{
+    background-color: rgb(4, 17, 17);
+}
+#reset{
+    background-color: red;
+}
